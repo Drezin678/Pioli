@@ -1,0 +1,578 @@
+@font-face {
+    font-family: "Proxima Nova Rg";
+    src: url('FontsFree-Net-proxima_nova_reg-webfont.ttf') format('truetype');
+}
+
+body {
+    font-family: "Proxima Nova Rg", Arial, Helvetica, sans-serif;
+    background-color: #EEEEEE;
+
+}
+
+h2 {
+    position: absolute;
+    top: 154px;
+    left: 370px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #333;
+    border-left: 7px solid rgb(37, 85, 37);
+    padding: 4px 0 4px 20px;
+}
+
+#h3 {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    border-left: 1px solid #e5e5e5;
+    padding: 0 0 0 15px;
+    font-weight: 100;
+}
+
+#main1 {
+    position: absolute;
+    top: 239px;
+    left: 355px;
+    align-items: center;
+    max-width: 360px;
+    max-height: 448px;
+    padding: 0px 15px;
+    margin: 0 0 30px;
+}
+
+#main2 {
+    position: absolute;
+    top: 239px;
+    left: 745px;
+    align-items: center;
+    width: 360px;
+    height: 448px;
+    padding: 0px 15px;
+    margin: 0 0 30px;
+}
+
+#main3 {
+    position: absolute;
+    top: 239px;
+    left: 1135px;
+    align-items: center;
+    width: 360px;
+    height: 448px;
+    padding: 0px 15px;
+    margin: 0 0 30px;
+}
+
+#a {
+    color: rgb(25, 102, 37);
+    text-decoration: none;
+}
+
+#text,
+#text1 {
+    color: #333;
+    position: relative;
+    top: 25%;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#text:hover {
+    color: rgb(76, 169, 76);
+}
+
+#text1:hover {
+    color: goldenrod;
+}
+
+#button {
+    position: relative;
+    color: #333;
+    font-weight: 900;
+    font-size: 16px;
+    margin-bottom: 6px;
+    width: 360px;
+    height: 44px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+#button:hover {
+    background-color: #e6e6e6;
+}
+
+
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer {
+    position: absolute;
+    background-color: rgb(37, 85, 37);
+    background-repeat: repeat;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    bottom: 0   ;
+}
+
+#div {
+    position: fixed;
+    background-color: #FFFFFF;
+    top: 35px;
+    left: 0%;
+    width: 100%;
+    height: 120px;
+}
+
+#div2 {
+    color: #FFFFFF;
+    position: relative;
+    top: 23px;
+    left: 565px;
+    max-width: 300px;
+    border-left: 1px solid rgb(51, 94, 51);
+    padding: 0 0 1px 15px;
+}
+
+#div3 {
+    position: absolute;
+    top: 29px;
+    left: 1250px;
+    width: 300px;
+    height: 110px;
+}
+
+#img {
+    position: absolute;
+    top: 32px;
+    left: 1368px;
+}
+
+#Pioli {
+    position: absolute;
+    top: 15px;
+    left: 400px;
+    width: 130px;
+}
+
+#Pioli1 {
+    position: absolute;
+    top: 35px;
+    left: 377px;
+}
+
+#imgCel {
+    position: absolute;
+    top: 64px;
+    left: 68px;
+}
+
+#imgInsta {
+    position: absolute;
+    top: 16px;
+    left: 121px;
+}
+
+#imgInsta:active {
+    transform: scale(0.95);
+    opacity: 10;
+}
+
+#p1 {
+    margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+#a1 {
+    display: block;
+    position: absolute;
+    left: 366px;
+    font-size: 11px;
+    text-decoration: none;
+    color: #888;
+    line-height: 20px;
+}
+
+#a1:hover {
+    color: green;
+}
+
+#a2 {
+    position: absolute;
+    left: 460px;
+    font-size: 11px;
+    text-decoration: none;
+    color: #888;
+    border-left: 1px solid #d7d7d7;
+    padding: 0 0 0 5px;
+    line-height: 20px;
+}
+
+#a2:hover {
+    color: green;
+}
+
+#a3 {
+    position: absolute;
+    top: 11px;
+    left: 1082px;
+    font-size: 10.8px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #888;
+}
+
+#a3:hover {
+    color: green;
+}
+
+#a4 {
+    position: absolute;
+    top: 12px;
+    left: 1239px;
+    font-size: 10.5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-left: 1px solid #d7d7d7;
+    padding: 0 0 0 5px;
+    color: #888;
+}
+
+#a4:hover {
+    color: green;
+}
+
+@media screen and (max-width: 1800px) {
+
+    h2,
+    #main1,
+    #main2,
+    #main3,
+    #div2,
+    #div3,
+    #img,
+    #Pioli,
+    #Pioli1,
+    #imgCel,
+    #imgInsta,
+    #a1,
+    #a2,
+    #a3,
+    #a4 {
+        transform: translateX(-150px);
+    }
+
+    #h3 {
+        transform: translateX(-30px);
+    }
+
+}
+
+@media screen and (max-width: 1440px) {
+
+    h2,
+    #main1,
+    #main2,
+    #main3,
+    #div2,
+    #div3,
+    #img,
+    #Pioli,
+    #Pioli1,
+    #imgCel,
+    #imgInsta,
+    #a1,
+    #a2,
+    #a3,
+    #a4 {
+        transform: translateX(-220px);
+    }
+
+    #imgInsta:active {
+        transform: scale(0.95);
+        left: calc(-127px + (50% - 121px) * 0.95);
+    }
+
+    #h3 {
+        transform: translateX(10px);
+    }
+     }
+
+    @media screen and (max-width: 1024px) {
+
+        h2,
+        #h3,
+        #main1,
+        #main2,
+        #main3,
+        #div2,
+        #div3,
+        #Pioli,
+        #Pioli1,
+        #a1,
+        #a2,
+        #a3,
+        #a4 {
+            transform: translateX(-400px);
+        }
+
+        
+        #div{
+            z-index: 1;
+        }
+
+        #h3 {
+            transform: translateX(-212px);
+        }
+        #a1,
+        #a2,
+        #a3,
+        #a4 {
+            position: fixed;
+            width: 200px;
+        }
+
+        #imgCel,
+        #imgInsta {
+            transform: translateX(-62px);
+        }
+
+        #imgInsta:active {
+            transform: scale(0.95);
+            left: 59px;
+        }
+
+    }
+
+    #img {
+        transform: translateX(-572px);
+    }
+
+
+@media screen and (max-width: 768px) {
+
+    #a1,
+    #a2,
+    #a3,
+    #a4 {
+        display: none;
+    }
+
+    #div {
+        top: 0;
+        height: 170px;
+    }
+
+    #Pioli {
+        width: 200px;
+    }
+
+    #main1,
+    #main2,
+    #main3,
+    #div2,
+    #div3,
+    #Pioli,
+    #Pioli1 {
+        transform: translateX(-358px);
+    }
+
+    #h3 {
+        color: #333;
+        border-left: none;
+        width: 580px;
+        font-weight: 700;
+        font-size: 70px;
+        transform: translateX(60px);
+        top: -30px;
+    }
+
+    h2 {
+        transform: translateX(-358px);
+        font-size: 50px;
+        width: 580px;
+    }
+
+    #imgCel,
+    #imgInsta {
+        transform: translateX(-20px);
+    }
+
+    #imgInsta:active {
+        transform: scale(1.40);
+        left: calc(93px + (50% - 121px) * 0.95);
+    }
+
+#img {
+    display: none;
+}
+
+footer {
+    transform: translateY(250px);
+}
+
+#Pioli1 {
+    width: 300px;
+}
+
+#div2 {
+    transform: translateX(-200px);
+}
+
+p {
+    font-size: 20px;
+}
+
+#div3 {
+    transform: translateX(-470px);
+    top: 90px;
+}
+
+#imgCel,
+#imgInsta {
+    transform: scale(1.5);
+}
+
+#main1,
+#main2,
+#main3 {
+    transform: translateX(-358px);
+    top: 350px;
+}
+
+}
+
+@media screen and (max-width: 425px) {
+
+    #a1,
+    #a2,
+    #a3,
+    #a4 {
+        display: none;
+    }
+
+    #button {
+        width: 500px;
+        height: 70px;
+        margin: 0 0 15px;
+    }
+
+    #text,
+    #text1 {
+        top: 16px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    #main1 {
+        position: relative;
+        top: 270px;
+        left: 430px;
+        margin: 0 0 345px;
+    }
+
+    #main2 {
+        position: relative;
+        top: 260px;
+        left: 430px;
+        margin: 0 0 345px;
+    }
+
+    #main3 {
+        position: relative;
+        top: 250px;
+        left: 430px;
+    }
+
+
+    #div {
+        top: 0;
+        height: 170px;
+    }
+
+    #Pioli {
+        width: 200px;
+    }
+
+    #div2,
+    #div3,
+    #Pioli,
+    #Pioli1 {
+        transform: translateX(-358px);
+    }
+
+    #h3 {
+        color: #333;
+        border-left: none;
+        width: 300px;
+        font-weight: 700;
+        font-size: 30px;
+        transform: translateX(60px);
+        top: 30px;
+    }
+
+    h2 {
+        transform: translateX(-358px);
+        font-size: 30px;
+        width: 580px;
+        top: 180px;
+    }
+
+    #imgCel,
+    #imgInsta {
+        transform: translateX(-20px);
+    }
+
+    #img {
+        display: none;
+    }
+
+    footer {
+        position: absolute;
+        transform: translateY(2050px);
+        width: 681px;
+        height: 280px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    #Pioli1 {
+        width: 300px;
+    }
+
+    #div2 {
+        transform: translateX(-200px);
+        display: none;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    #div {
+        position: absolute;
+        width: 681px;
+    }
+
+    #div3 {
+        transform: translateX(-900px);
+    }
+
+    #imgCel,
+    #imgInsta {
+        transform: scale(1.5);
+    }
+
+    body {
+        overflow: auto;
+    }
+}
